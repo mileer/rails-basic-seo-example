@@ -4,7 +4,7 @@ Very bare bones Rails 4 app to demonstate a basic SEO scheme.
 
 Code for blog post:
 
-Running example: http://rbseoeg.gitrepoexample.com
+Running example: http://rbseoeg.gitrepoexamples.com
 
 ##Author
 
