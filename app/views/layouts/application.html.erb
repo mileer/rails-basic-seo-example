@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title><%= yield_or_default(:title) -%></title>
+  <meta name="description" content="<%= yield_or_default(:meta_desc) -%>">
+  <meta name="keywords" content="<%= yield_or_default(:meta_keywords) -%>">
+
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= link_to "Dashboard", root_path -%>&nbsp;&nbsp;
+<%= link_to "Reports", reports_path -%>&nbsp;&nbsp;
+<%= link_to "Help", help_index_path -%>&nbsp;&nbsp;
+<%= link_to "Message", messages_path -%>
+
+<%= yield %>
+
+</body>
+</html>

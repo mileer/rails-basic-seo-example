@@ -1,0 +1,9 @@
+<% seo_tag('title', 'reports.edit', {no_scope: true, add_in: @report.title}) -%>
+<% seo_tag('meta_desc', 'reports.edit', {no_scope: true, add_in: @report.title}) -%>
+
+<h1><%= get_header_text(element: "h1", add_in: @report.title) -%></h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @report %> |
+<%= link_to 'Back', reports_path %>
