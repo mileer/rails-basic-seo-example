@@ -11,6 +11,7 @@ en:
       title: "%{branding} - Make Your Life Easier [default]"
       meta_desc: "%{branding} doesn't have to be complicated. Empower the editors and copywriters. [default]"
       meta_keywords: ""
+      robots: ""
     
     # add a block of keys under 'header_text' scope for views/partials rendered outside the current controller/action
     message:
@@ -42,6 +43,7 @@ en:
       h1: "Edit %{add_in} Report [11]"
       title: "Edit %{add_in} Report - %{branding} [12]"
       meta_desc: "Edit %{add_in} report on %{branding} [13]"
+      robots: "noindex, nofollow"
  
   help:
     index:

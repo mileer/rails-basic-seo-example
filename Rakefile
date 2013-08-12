@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Myinfo::Application.load_tasks
+HelloWorld::Application.load_tasks
