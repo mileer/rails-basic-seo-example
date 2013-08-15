@@ -1,8 +1,8 @@
 #rails-basic-seo-example
 
-Very bare bones Rails 4 app to demonstate a basic SEO scheme.
+Very bare bones Rails 4 app to demonstate a basic SEO scheme using an I18n locale file for tag contents.
 
-Code for blog post:
+Code for blog post: http://joanswork.com/rails-seo-and-i18n-the-basics/
 
 Running example: http://rbseoeg.gitrepoexamples.com
 
