@@ -7,47 +7,47 @@ en:
     branding: "Rails Basic SEO Example"
     
     default:
-      h1: "H1 text not found. Fix me! [default]"
-      title: "%{branding} - Make Your Life Easier [default]"
-      meta_desc: "%{branding} doesn't have to be complicated. Empower the editors and copywriters. [default]"
+      h1: "H1 text not found. Fix me!"
+      title: "%{branding} - Make Your Life Easier"
+      meta_desc: "SEO in a Rails app doesn't have to be complicated. Empower the editors and copywriters in your life."
       meta_keywords: ""
       robots: ""
     
     # add a block of keys under 'header_text' scope for views/partials rendered outside the current controller/action
     message:
-      h1: "Messages and Alerts [1]"
-      title: "Messages and Alerts - %{branding} [2]"
-      meta_desc: "Your private messages and alerts - %{branding}. [3]"
+      h1: "Messages and Alerts"
+      title: "Messages and Alerts - %{branding}"
+      meta_desc: "Your private messages and alerts - %{branding}."
   
   #
   # add a block of keys for each controller/action that maps to a view
   #
   dashboard:
     index:
-      h1: "Dashboard for Rails Basic SEO Example [4]"
+      h1: "Dashboard for Rails Basic SEO Example"
   
   reports:
     index:
-      h1: "List of Reports [5]"
-      title: "List of Reports - %{branding} [6]"
-      meta_desc: "List of reports - %{branding} [7]"
+      h1: "List of Reports"
+      title: "List of Reports - %{branding}"
+      meta_desc: "List of reports - %{branding}"
     show:
-      h1: "%{add_in} Report [17]"
-      title: "%{add_in} Report - %{branding} [18]"
-      meta_desc: "%{add_in} report on %{branding} [19]"
+      h1: "%{add_in} Report"
+      title: "%{add_in} Report - %{branding}"
+      meta_desc: "%{add_in} report on %{branding}"
     new:
-      h1: "Create a New Report [8]"
-      title: "Create a New Report - %{branding} [9]"
-      meta_desc: "Creat a new report on %{branding} [10]"
+      h1: "Create a New Report"
+      title: "Create a New Report - %{branding}"
+      meta_desc: "Creat a new report on %{branding}"
     edit:
-      h1: "Edit %{add_in} Report [11]"
-      title: "Edit %{add_in} Report - %{branding} [12]"
-      meta_desc: "Edit %{add_in} report on %{branding} [13]"
+      h1: "Edit %{add_in} Report"
+      title: "Edit %{add_in} Report - %{branding}"
+      meta_desc: "Edit %{add_in} report on %{branding}"
       robots: "noindex, nofollow"
  
   help:
     index:
-      h1: "%{branding} Help [14]"
-      title: "Help - %{branding} [15]"
-      meta_desc: "Help with %{branding} [16]"
+      h1: "%{branding} Help"
+      title: "Help - %{branding}"
+      meta_desc: "Help with %{branding}"
           
