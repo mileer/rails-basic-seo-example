@@ -1,4 +1,4 @@
-HelloWorld::Application.routes.draw do
+Rbseoeg::Application.routes.draw do
 
   root 'dashboard#index'
 

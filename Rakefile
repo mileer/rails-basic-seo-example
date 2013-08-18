@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-HelloWorld::Application.load_tasks
+Rbseoeg::Application.load_tasks
