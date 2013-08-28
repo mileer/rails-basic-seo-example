@@ -2,26 +2,26 @@
 
 Example of how to populate the basic SEO related HTML tags using an I18n locale file for tag contents.
 
-Code for blog post: [Rails, SEO & I18n: The Basics](http://joanswork.com/rails-seo-and-i18n-the-basics/) on [Joan's Work](http://joanswork.com)
+Code for blog post: ["Rails, SEO and I18n: The Basics"](http://joanswork.com/rails-seo-and-i18n-the-basics/) on [Joan's Work](http://joanswork.com)
 
 [Live example](http://rbseoeg.gitrepoexamples.com)
 
 ##Install
 
-(1) Create the I18n locale file [config/locales/en.header_text.yml](config/locales/en.header_text.yml)
+(1) Create the I18n locale file [config/locales/en.header_text.yml]()
 
-(2) Add related helper methods found in [app/helpers/application_helper.rb](app/helpers/application_helper.rb): 
+(2) Add related helper methods found in [app/helpers/application_helper.rb](): 
 
-(3) Add method calls to the &lt;head&gt; of your [layout](app/views/layouts/application.html.erb).
+(3) Add `yield_or_default()` method calls to the `<head>` section of your [layout](app/views/layouts/application.html.erb).
 
 (4) Update views as needed.
 
-(5) Empower the editors, brand marketers, translators to update the YAML file without needing to queue up for a programmer's time.
+(5) Empower the editors, brand marketers, translators, etc to update the YAML file without needing to queue up for a programmer's time.
 
 
 ##Author
 
-Joan Hughes @ http://joanswork.com
+Joan Hughes @ [http://joanswork.com]()
 
 ##License
 The MIT License (MIT)
