@@ -8,9 +8,9 @@ Code for blog post: ["Rails, SEO and I18n: The Basics"](http://joanswork.com/rai
 
 ##Install
 
-(1) Create the I18n locale file [config/locales/en.header_text.yml]()
+(1) Create the I18n locale file [config/locales/en.header_text.yml](config/locales/en.header_text.yml)
 
-(2) Add related helper methods found in [app/helpers/application_helper.rb](): 
+(2) Add related helper methods found in [app/helpers/application_helper.rb](app/helpers/application_helper.rb): 
 
 (3) Add `yield_or_default()` method calls to the `<head>` section of your [layout](app/views/layouts/application.html.erb).
 
@@ -21,7 +21,7 @@ Code for blog post: ["Rails, SEO and I18n: The Basics"](http://joanswork.com/rai
 
 ##Author
 
-Joan Hughes @ [http://joanswork.com]()
+Joan Hughes @ [http://joanswork.com](http://joanswork.com)
 
 ##License
 The MIT License (MIT)
