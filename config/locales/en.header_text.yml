@@ -11,7 +11,7 @@ en:
       title: "%{branding} - Make Your Life Easier"
       meta_desc: "SEO in a Rails app doesn't have to be complicated. Empower the editors and copywriters in your life."
       meta_keywords: ""
-      robots: ""
+      robots: "noodp"
     
     # add a block of keys under 'header_text' scope for views/partials rendered outside the current controller/action
     message:
