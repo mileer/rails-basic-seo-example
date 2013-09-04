@@ -11,7 +11,13 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body style="width:700px;">
+
+<p>
+Live demo site for the blog post: <a href="http://joanswork.com/rails-seo-and-i18n-the-basics/" target="_blank">Rails, SEO, I18n: The Basics</a>.<br />
+The open source respository: <a href="https://github.com/jehughes/rails-basic-seo-example" target="_blank">https://github.com/jehughes/rails-basic-seo-example</a>
+</p>
+<hr />
 
 <%= link_to "Dashboard", root_path -%>&nbsp;&nbsp;
 <%= link_to "Reports", reports_path -%>&nbsp;&nbsp;
@@ -26,12 +32,11 @@
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
 <h4>Page Tags</h4>
-<div id="list_tags">
-</div>
+<div id="list_tags"></div>
+<br />
+<br />
+<p><span style="color:#FF0000;">NOTE:</span> You'll notice that the meta tags don't update until you do a page refresh. This is a Turbolinks issue - I've posted this as a question on <a href="http://stackoverflow.com/questions/18491651" target="_blank">StackOverflow</a> .... we'll see. </p>
 
 </body>
 </html>
