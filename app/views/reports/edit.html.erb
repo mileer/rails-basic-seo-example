@@ -1,6 +1,6 @@
-<% seo_tag('title', 'reports.edit', {no_scope: true, add_in: @report.title}) -%>
-<% seo_tag('meta_desc', 'reports.edit', {no_scope: true, add_in: @report.title}) -%>
-<% seo_tag('robots', 'reports.edit', {no_scope: true}) -%>
+<% seo_tag('title', 'reports.edit', {add_in: @report.title}) -%>
+<% seo_tag('meta_desc', 'reports.edit', {add_in: @report.title}) -%>
+<% seo_tag('robots', 'reports.edit') -%>
 
 <h1><%= get_header_text(element: "h1", add_in: @report.title) -%></h1>
 

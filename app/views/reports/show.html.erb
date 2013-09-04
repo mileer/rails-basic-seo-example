@@ -1,5 +1,5 @@
-<% seo_tag('title', 'reports.show', {no_scope: true, add_in: @report.title}) -%>
-<% seo_tag('meta_desc', 'reports.show', {no_scope: true, add_in: @report.title}) -%>
+<% seo_tag('title', 'reports.show', {add_in: @report.title}) -%>
+<% seo_tag('meta_desc', 'reports.show', {add_in: @report.title}) -%>
 
 <h1><%= get_header_text(element: "h1", add_in: @report.title) -%></h1>
 
