@@ -8,6 +8,8 @@ Code for blog post: ["Rails, SEO and I18n: The Basics"](http://joanswork.com/rai
 
 ##Install
 
+See the blog post for a more detailed instructions:
+
 (1) Create the I18n locale file [config/locales/en.header_text.yml](config/locales/en.header_text.yml)
 
 (2) Add related helper methods found in [app/helpers/application_helper.rb](app/helpers/application_helper.rb): 
@@ -17,6 +19,11 @@ Code for blog post: ["Rails, SEO and I18n: The Basics"](http://joanswork.com/rai
 (4) Update views as needed.
 
 (5) Empower the editors, brand marketers, translators, etc to update the YAML file without needing to queue up for a programmer's time.
+
+
+### ... Turbolinks
+
+I went to add a simple debug display of the page's tags and bumped into a turbolinks issue. I posted a question on [StackOverflow](http://stackoverflow.com/questions/18491651) and I can tell from the [turbolinks issues](https://github.com/rails/turbolinks/issues) that I'm not the only one wondering how to refresh the meta tags with turbolinks installed.
 
 
 ##Author
