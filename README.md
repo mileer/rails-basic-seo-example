@@ -21,11 +21,6 @@ See the blog post for more detailed instructions:
 (5) Empower the editors, brand marketers, translators, etc to update the YAML file without needing to queue up for a programmer's time.
 
 
-### ... Turbolinks
-
-I went to add a simple debug display of the page's tags and bumped into a turbolinks issue. I posted a question on [StackOverflow](http://stackoverflow.com/questions/18491651) and I can tell from the [turbolinks issues](https://github.com/rails/turbolinks/issues) that I'm not the only one wanting to refresh the meta tags with turbolinks installed.
-
-
 ##Author
 
 Joan Hughes @ [http://joanswork.com](http://joanswork.com)
