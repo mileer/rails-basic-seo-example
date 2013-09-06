@@ -77,4 +77,8 @@ Rbseoeg::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  
+  # Google Analytics using the google-analytics-rails gem
+  GA.tracker = PRIVATE_DATA['ga_tracker']
+
 end

@@ -1,0 +1,11 @@
+  <% unless Rails.env.test? -%>
+    <%= analytics_init :domain => "#{PRIVATE_DATA['ga_tracker_domain']}" %>
+    <script type="text/javascript">
+      document.addEventListener('page:change', function() { 
+        if (window._gaq != null) {
+          _gaq.push(['_trackPageview']);
+        } else if (window.pageTracker != null) {
+          pageTracker._trackPageview();
+      } })         
+    </script>
+  <% end -%>

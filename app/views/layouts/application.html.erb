@@ -6,7 +6,9 @@
   <meta name="description" content="<%= yield_or_default(:meta_desc) -%>">
   <meta name="keywords" content="<%= yield_or_default(:meta_keywords) -%>">
   <meta name="robots" content="<%= yield_or_default(:robots) -%>">
-
+  
+  <%= render partial: 'layouts/partials/ga' -%>
+  
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
