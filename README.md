@@ -12,7 +12,7 @@ See the blog post for more detailed instructions:
 
 (1) Create the I18n locale file [config/locales/en.header_text.yml](config/locales/en.header_text.yml)
 
-(2) Add related helper methods found in [app/helpers/application_helper.rb](app/helpers/application_helper.rb): 
+(2) Add methodds in new helper file: [app/helpers/set_seo_tags_helper.rb](app/helpers/set_seo_tags_helper.rb): 
 
 (3) Add `yield_or_default()` method calls to the `<head>` section of your [layout](app/views/layouts/application.html.erb).
 
