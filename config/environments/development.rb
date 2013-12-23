@@ -26,7 +26,5 @@ Rbseoeg::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-  
-  # Google Analytics using the google-analytics-rails gem
-  GA.tracker = PRIVATE_DATA['ga_tracker']
+
 end
