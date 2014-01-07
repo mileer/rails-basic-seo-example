@@ -36,3 +36,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ![jeh](http://joanswork.com/images/gh_rbseoeg_spot.png)
 
+[![Analytics](https://ga-beacon.appspot.com/UA-46923629-1/rails-basic-seo-example/README)](https://github.com/igrigorik/ga-beacon)
+
