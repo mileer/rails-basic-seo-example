@@ -2,9 +2,15 @@
 
 Example of how to populate the basic SEO related HTML tags using an I18n locale file for tag contents.
 
-Code for blog post: ["Rails, SEO and I18n: The Basics"](http://joanswork.com/rails-seo-and-i18n-the-basics/) on [Joan's Work](http://joanswork.com)
+Demo Site: <http://rbseoeg.gitrepoexamples.com>
 
-[Live example](http://rbseoeg.gitrepoexamples.com)
+###Related Blog Posts
+
+Blog posts on [joanswork.com](http://joanswork.com) that provide further explanation and instruction.
+
+- [Turbolinks, Google Analytics & SEO: Keeping everybody happy] (http://joanswork.com/turbolinks-and-ga/)
+- [Using I18n for SEO related tags](http://joanswork.com/rails-seo-and-i18n-the-basics/)
+
 
 ##Install
 
