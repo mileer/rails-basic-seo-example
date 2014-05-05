@@ -1,0 +1,27 @@
+#inherit_from: rubocop-todo.yml
+
+AllCops:
+  Include:
+    - Rakefile
+    - config.ru
+  Exclude:
+    - db/schema.rb
+
+LineLength:
+  Max: 120
+  
+SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+  
+MethodLength:
+  Max: 18
+
+EmptyLinesAroundBody: # prefer empty line for legibility
+  Enabled: false
+
+Documentation: # too strict, can't configure
+  Enabled: false
+
+# remove later - bug in current rubocop release
+Delegate:
+  Enabled: false

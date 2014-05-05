@@ -4,8 +4,8 @@ Rbseoeg::Application.routes.draw do
 
   get 'messages' => 'dashboard#go_to_message'
 
-  get "help/index"
-  get "dashboard/index"
+  get 'help/index'
+  get 'dashboard/index'
 
   resources :reports
 
@@ -49,7 +49,7 @@ Rbseoeg::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

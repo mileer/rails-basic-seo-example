@@ -44,3 +44,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development do
+  gem 'rubocop', require: false
+  gem 'reek', require: false
+  gem 'rails_best_practices', require: false
+end
