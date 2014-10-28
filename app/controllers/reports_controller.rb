@@ -31,7 +31,7 @@ class ReportsController < ApplicationController
         format.html { redirect_to @report, notice: 'Report was successfully created.' }
         format.json { render action: 'show', status: :created, location: @report }
       else
-        format.html { render action: 'new' }
+        format.html { render 'new' }
         format.json { render json: @report.errors, status: :unprocessable_entity }
       end
     end
@@ -45,7 +45,7 @@ class ReportsController < ApplicationController
         format.html { redirect_to @report, notice: 'Report was successfully updated.' }
         format.json { head :no_content }
       else
-        format.html { render action: 'edit' }
+        format.html { render 'edit' }
         format.json { render json: @report.errors, status: :unprocessable_entity }
       end
     end
@@ -68,7 +68,7 @@ class ReportsController < ApplicationController
     @report = Report.find(params[:id])
   end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
+  # Never trust parameters from the scary internet, only allow the white list through.
   def report_params
     params.require(:report).permit(:title, :author, :published)
   end
