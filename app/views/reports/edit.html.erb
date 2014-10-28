@@ -4,7 +4,7 @@
 
 <h1><%= get_header_text(element: "h1", add_in: @report.title) -%></h1>
 
-<%= render 'form' %>
+<%= render 'form', report: @report %>
 
 <%= link_to 'Show', @report %> |
 <%= link_to 'Back', reports_path %>
