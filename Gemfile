@@ -48,9 +48,9 @@ group :development do
   gem 'rubocop', require: false
   gem 'reek', require: false
   gem 'rails_best_practices', require: false
-  
-  gem 'rspec-rails', '~> 3.1.0'
-  gem 'factory_girl_rails', '~> 4.4.1'
+
+  gem 'rspec-rails', '~> 3.1'
+  gem 'factory_girl_rails', '~> 4'
 end
 
 group :test do
