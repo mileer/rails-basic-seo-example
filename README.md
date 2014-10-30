@@ -8,7 +8,7 @@ Demo Site: <http://rbseoeg.gitrepoexamples.com>
 
 Blog posts on [joanswork.com](http://joanswork.com) that provide further explanation and instruction.
 
-- [Turbolinks, Google Analytics & SEO: Keeping everybody happy] (http://joanswork.com/turbolinks-and-ga/)
+- [Turbolinks, Google Analytics & SEO: Keeping everybody happy](http://joanswork.com/turbolinks-and-ga/)
 - [Using I18n for SEO related tags](http://joanswork.com/rails-seo-and-i18n-the-basics/)
 
 
@@ -26,6 +26,9 @@ See the blog post for more detailed instructions:
 
 (5) Empower the editors, brand marketers, translators, etc to update the YAML file without needing to queue up for a programmer's time.
 
+##Updates
+
+10/29/2014: Added Rspec 3.1 and specs to test meta tags.
 
 ##Author
 
