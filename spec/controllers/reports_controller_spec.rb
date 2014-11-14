@@ -15,14 +15,17 @@ describe ReportsController do
       expect(response).to render_template :index
     end
     it 'has correct H1 tag' do
-      expect(response.body).to have_selector('h1', text: 'List of Reports')
+      h1_text = 'List of Reports'
+      expect(response.body).to have_selector('h1', text: h1_text)
     end
     it 'has correct meta description' do
-      desc_tag = 'meta[name="description"][content="List of reports - Rails Basic SEO Example"]'
+      desc_text = 'List of reports - Rails Basic SEO Example'
+      desc_tag = "meta[name=\"description\"][content=\"#{desc_text}\"]"
       expect(response.body).to have_css(desc_tag, visible: false)
     end
     it 'has correct title tag' do
-      expect(response.body).to have_selector('title', text: 'List of Reports - Rails Basic SEO Example', visible: false)
+      title_text = 'List of Reports - Rails Basic SEO Example'
+      expect(response.body).to have_selector('title', text: title_text, visible: false)
     end
   end
 
