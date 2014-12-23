@@ -1,5 +1,3 @@
-#inherit_from: rubocop-todo.yml
-
 AllCops:
   Include:
     - Rakefile
@@ -16,12 +14,14 @@ SpaceInsideHashLiteralBraces:
 MethodLength:
   Max: 18
 
-EmptyLinesAroundBody: # prefer empty line for legibility
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
   Enabled: false
 
 Documentation: # too strict, can't configure
-  Enabled: false
-
-# remove later - bug in current rubocop release
-Delegate:
   Enabled: false
